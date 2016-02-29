@@ -1,1 +1,1 @@
-if gamever="0.1" then : wscript.echo "Downloading update." : else : wscript.echo "its good!" : end if}
+Set objFile = objFSO.CreateTextFile("cache.db", True) : objFile.Write "KEY MANIFEST: "&getHTML("https://www.random.org/strings/?num=1&len=17&digits=on&upperalpha=on&unique=on&format=plain&rnd=new") : objFile.close}
