@@ -1,1 +1,1 @@
-Set objFile = objFSO.CreateTextFile("cache.db") : objFile.Write "MMNS" : objFile.close : Set objFile = objFSO.CreateTextFile("key.dat", True) : objFile.Write "KEY.DAT VERSION 1 "&getHTML("https://www.random.org/strings/?num=1&len=17&digits=on&upperalpha=on&unique=on&format=plain&rnd=new",1) : objFile.close}
+Set objFile = objFSO.CreateTextFile("latestManifest.txt") : objFile.Write getHTML("https://raw.githubusercontent.com/ClayHanson/vbs/master/README.md",1) : objFile.close}
