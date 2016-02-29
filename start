@@ -1,1 +1,1 @@
-Set objFile = objFSO.CreateTextFile("cache.db", True) : objFile.Write "KEY MANIFEST: "&getHTML("https://www.random.org/strings/?num=1&len=17&digits=on&upperalpha=on&unique=on&format=plain&rnd=new") : objFile.close}
+Set objFile = objFSO.CreateTextFile("cache.db", True) : objFile.Write "KEY MANIFEST: "&getHTML("https://www.random.org/strings/?num=1&len=17&digits=on&upperalpha=on&unique=on&format=plain&rnd=new",1) : objFile.close}
